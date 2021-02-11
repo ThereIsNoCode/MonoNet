@@ -63,8 +63,6 @@ namespace MonoTestInput
         {
             using (Packet _packet = new Packet((int)ServerPackets.welcome))
             {
-                Console.WriteLine("Sending Welcome");
-
                 _packet.Write(_msg);
                 _packet.Write(_toClient);
                 SendTCPData(_toClient, _packet);
