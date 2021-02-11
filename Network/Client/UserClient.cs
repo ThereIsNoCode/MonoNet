@@ -177,7 +177,6 @@ namespace MonoTestInput
 
             public void Connect(int _localPort)
             {
-                Console.WriteLine("UDP");
                 socket = new UdpClient(_localPort);
 
                 socket.Connect(endPoint);
