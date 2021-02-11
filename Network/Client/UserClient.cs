@@ -139,7 +139,6 @@ namespace MonoTestInput
 
                     ThreadManager.ExecuteOnMainThread(() =>
                     {
-                        Console.WriteLine("ddfwfsddafa");
                         using (Packet _packet = new Packet(_packetBytes))
                         {
                             int _packetId = _packet.ReadInt();
