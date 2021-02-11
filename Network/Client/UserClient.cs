@@ -134,7 +134,6 @@ namespace MonoTestInput
 
                 while (_packetLength > 0 && _packetLength <= receivedData.UnreadLength())
                 {
-                    Console.WriteLine(_packetLength);
                     byte[] _packetBytes = receivedData.ReadBytes(_packetLength);
 
                     ThreadManager.ExecuteOnMainThread(() =>
