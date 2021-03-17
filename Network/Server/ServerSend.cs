@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using MonoNet.Packets;
 
-namespace MonoTestInput
+namespace MonoNet.Server
 {
     class ServerSend
     {
