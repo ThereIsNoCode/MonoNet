@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace MonoTestInput
+namespace MonoNet.Packets
 {
     class ThreadManager
     {
