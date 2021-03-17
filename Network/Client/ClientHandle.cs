@@ -3,8 +3,9 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.InteropServices.ComTypes;
 using System.Net;
+using MonoNet.Packets;
 
-namespace MonoTestInput
+namespace MonoNet.Client
 {
     public class ClientHandle
     {
