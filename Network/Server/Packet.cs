@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace MonoTestInput
+namespace MonoNet.Packets
 {
     /// <summary>Sent from server to client.</summary>
     public enum ServerPackets
