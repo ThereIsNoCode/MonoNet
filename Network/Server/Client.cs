@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Text;
 using System.Net;
 using System.Net.Sockets;
+using MonoNet.Packets;
 
-namespace MonoTestInput
+namespace MonoNet.Server
 {
     class Client
     {
